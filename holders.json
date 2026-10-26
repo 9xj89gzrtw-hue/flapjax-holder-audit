@@ -1,0 +1,1677 @@
+{
+ "token": "0x90c8889f428F9Ebb77BB8f15CAD3a50a9aC680df",
+ "symbol": "FLAPJAX",
+ "chain": "BSC",
+ "decimals": 18,
+ "target_block": 129454096,
+ "target_ts": "2026-10-24T04:59:59Z",
+ "total_supply": "44444444444000000000000000000",
+ "holder_count": 279,
+ "transfers_replayed": 5804,
+ "deploy_block": 44582615,
+ "sum_of_balances": "44444444444000000000000000000",
+ "supply_conserved": true,
+ "top20": [
+  {
+   "rank": 1,
+   "address": "0xca93ec685b8623688e6b236f9068034b298c2150",
+   "balance": "20048955849847997966429118451",
+   "balance_human": "20,048,955,849.85",
+   "share_pct": 45.1102,
+   "is_contract": true,
+   "label": "PancakeSwap V3 pool FLAPJAX/WBNB (1% fee tier)",
+   "label_source": "token0()/token1()/factory() on the address return FLAPJAX, WBNB and the PancakeSwap V3 factory 0x0bfbcf9f\u20261865; GoPlus Security API tags it `PancakeV3`",
+   "balance_second_rpc": "20048955849847997966429118451",
+   "second_rpc_agrees": true
+  },
+  {
+   "rank": 2,
+   "address": "0x740a3b4a91cb8fa47e85d7f9713ca6ec2f8a037e",
+   "balance": "5619844348598993998769163970",
+   "balance_human": "5,619,844,348.60",
+   "share_pct": 12.6446,
+   "is_contract": true,
+   "label": "PancakeSwap V3 pool FLAPJAX/BTCB (1% fee tier)",
+   "label_source": "token0()/token1()/factory() on the address return FLAPJAX, BTCB (0x7130d2a1\u2026ad9c) and the same PancakeSwap V3 factory 0x0bfbcf9f\u20261865",
+   "balance_second_rpc": "5619844348598993998769163970",
+   "second_rpc_agrees": true
+  },
+  {
+   "rank": 3,
+   "address": "0x58fab046ce77064bf52c2eff4e163eb84386b8b4",
+   "balance": "2334009348875000000000000000",
+   "balance_human": "2,334,009,348.88",
+   "share_pct": 5.2515,
+   "is_contract": false,
+   "label": "unlabelled",
+   "label_source": "\u2014",
+   "balance_second_rpc": "2334009348875000000000000000",
+   "second_rpc_agrees": true
+  },
+  {
+   "rank": 4,
+   "address": "0x000000000000000000000000000000000000dead",
+   "balance": "1923471159703770945293578174",
+   "balance_human": "1,923,471,159.70",
+   "share_pct": 4.3278,
+   "is_contract": false,
+   "label": "burn address (0x\u2026dEaD)",
+   "label_source": "canonical burn address, no code, tokens provably unspendable",
+   "balance_second_rpc": "1923471159703770945293578174",
+   "second_rpc_agrees": true
+  },
+  {
+   "rank": 5,
+   "address": "0x2ea90ff709b0fb5decd1de944f644eecdc26d33a",
+   "balance": "1175621343198940751591630110",
+   "balance_human": "1,175,621,343.20",
+   "share_pct": 2.6451,
+   "is_contract": false,
+   "label": "FLAPJAX deployer / contract creator",
+   "label_source": "GoPlus Security API `creator_address` for the token; also the address in the contract-creation record",
+   "balance_second_rpc": "1175621343198940751591630110",
+   "second_rpc_agrees": true
+  },
+  {
+   "rank": 6,
+   "address": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+   "balance": "848761365008444134380867071",
+   "balance_human": "848,761,365.01",
+   "share_pct": 1.9097,
+   "is_contract": false,
+   "label": "FlapJax treasury",
+   "label_source": "named by the FlapJax team in the public task text (Receipt Relay Q46); no code at the target block",
+   "balance_second_rpc": "848761365008444134380867071",
+   "second_rpc_agrees": true
+  },
+  {
+   "rank": 7,
+   "address": "0x238a358808379702088667322f80ac48bad5e6c4",
+   "balance": "649733956867655012274145208",
+   "balance_human": "649,733,956.87",
+   "share_pct": 1.4619,
+   "is_contract": true,
+   "label": "unlabelled",
+   "label_source": "\u2014",
+   "balance_second_rpc": "649733956867655012274145208",
+   "second_rpc_agrees": true
+  },
+  {
+   "rank": 8,
+   "address": "0xf0e319587b54db351f4a20e2da09848fed4d8151",
+   "balance": "621698620153862035019976481",
+   "balance_human": "621,698,620.15",
+   "share_pct": 1.3988,
+   "is_contract": false,
+   "label": "unlabelled",
+   "label_source": "\u2014",
+   "balance_second_rpc": "621698620153862035019976481",
+   "second_rpc_agrees": true
+  },
+  {
+   "rank": 9,
+   "address": "0x5dedb37eaa9145dd1a17d385d8c5e256871d6f16",
+   "balance": "611866236479140970515983357",
+   "balance_human": "611,866,236.48",
+   "share_pct": 1.3767,
+   "is_contract": false,
+   "label": "unlabelled",
+   "label_source": "\u2014",
+   "balance_second_rpc": "611866236479140970515983357",
+   "second_rpc_agrees": true
+  },
+  {
+   "rank": 10,
+   "address": "0x9a937a531a3e4b7930a49548b64c4a3471d049e2",
+   "balance": "610074149236058951494657443",
+   "balance_human": "610,074,149.24",
+   "share_pct": 1.3727,
+   "is_contract": false,
+   "label": "unlabelled",
+   "label_source": "\u2014",
+   "balance_second_rpc": "610074149236058951494657443",
+   "second_rpc_agrees": true
+  },
+  {
+   "rank": 11,
+   "address": "0xdbf2bdecf7dff212880552398b42e0ab997523a7",
+   "balance": "588854986027098745000000000",
+   "balance_human": "588,854,986.03",
+   "share_pct": 1.3249,
+   "is_contract": false,
+   "label": "unlabelled",
+   "label_source": "\u2014",
+   "balance_second_rpc": "588854986027098745000000000",
+   "second_rpc_agrees": true
+  },
+  {
+   "rank": 12,
+   "address": "0x4492ca070a2caea1502fb807b389b62ab32eb0d3",
+   "balance": "586603504417275704449255607",
+   "balance_human": "586,603,504.42",
+   "share_pct": 1.3199,
+   "is_contract": false,
+   "label": "unlabelled",
+   "label_source": "\u2014",
+   "balance_second_rpc": "586603504417275704449255607",
+   "second_rpc_agrees": true
+  },
+  {
+   "rank": 13,
+   "address": "0xc1fa91a815f59215aaefff20ea5c2f6718488d9a",
+   "balance": "559775724986657156000000000",
+   "balance_human": "559,775,724.99",
+   "share_pct": 1.2595,
+   "is_contract": false,
+   "label": "unlabelled",
+   "label_source": "\u2014",
+   "balance_second_rpc": "559775724986657156000000000",
+   "second_rpc_agrees": true
+  },
+  {
+   "rank": 14,
+   "address": "0x7b6396e12928bee509473a2af01b30268343b7d5",
+   "balance": "525463217000000000000000000",
+   "balance_human": "525,463,217.00",
+   "share_pct": 1.1823,
+   "is_contract": false,
+   "label": "unlabelled",
+   "label_source": "\u2014",
+   "balance_second_rpc": "525463217000000000000000000",
+   "second_rpc_agrees": true
+  },
+  {
+   "rank": 15,
+   "address": "0x4e1d0ab0c3730469c79c6746d222a28af81367ee",
+   "balance": "482021894326264513146345975",
+   "balance_human": "482,021,894.33",
+   "share_pct": 1.0845,
+   "is_contract": false,
+   "label": "unlabelled",
+   "label_source": "\u2014",
+   "balance_second_rpc": "482021894326264513146345975",
+   "second_rpc_agrees": true
+  },
+  {
+   "rank": 16,
+   "address": "0x3a38d9c6a55f41286913b666501fb602bf0d05a2",
+   "balance": "482000000000000000000000000",
+   "balance_human": "482,000,000.00",
+   "share_pct": 1.0845,
+   "is_contract": false,
+   "label": "unlabelled",
+   "label_source": "\u2014",
+   "balance_second_rpc": "482000000000000000000000000",
+   "second_rpc_agrees": true
+  },
+  {
+   "rank": 17,
+   "address": "0x5197681f65d2280d34866ee5a8c343bc67a71b20",
+   "balance": "482000000000000000000000000",
+   "balance_human": "482,000,000.00",
+   "share_pct": 1.0845,
+   "is_contract": false,
+   "label": "unlabelled",
+   "label_source": "\u2014",
+   "balance_second_rpc": "482000000000000000000000000",
+   "second_rpc_agrees": true
+  },
+  {
+   "rank": 18,
+   "address": "0xe4ab694afb5499e6313e946c97d32e6c3fa5b754",
+   "balance": "444444445010803226282390787",
+   "balance_human": "444,444,445.01",
+   "share_pct": 1.0,
+   "is_contract": false,
+   "label": "unlabelled",
+   "label_source": "\u2014",
+   "balance_second_rpc": "444444445010803226282390787",
+   "second_rpc_agrees": true
+  },
+  {
+   "rank": 19,
+   "address": "0x74441dd9edc99fb5a66e7b35f139ce0e9fbd0954",
+   "balance": "407298532686207407481217779",
+   "balance_human": "407,298,532.69",
+   "share_pct": 0.9164,
+   "is_contract": false,
+   "label": "unlabelled",
+   "label_source": "\u2014",
+   "balance_second_rpc": "407298532686207407481217779",
+   "second_rpc_agrees": true
+  },
+  {
+   "rank": 20,
+   "address": "0x639e263ce57bcee9866f01b1e6166fa20f965239",
+   "balance": "383287277524234555000000000",
+   "balance_human": "383,287,277.52",
+   "share_pct": 0.8624,
+   "is_contract": false,
+   "label": "unlabelled",
+   "label_source": "\u2014",
+   "balance_second_rpc": "383287277524234555000000000",
+   "second_rpc_agrees": true
+  }
+ ],
+ "concentration_pct": {
+  "top5": 69.979,
+  "top10": 77.499,
+  "top20": 88.618
+ },
+ "top20_contracts": 3,
+ "top20_wallets": 17,
+ "all_holders": [
+  {
+   "address": "0xca93ec685b8623688e6b236f9068034b298c2150",
+   "balance": "20048955849847997966429118451",
+   "share_pct": 45.110151
+  },
+  {
+   "address": "0x740a3b4a91cb8fa47e85d7f9713ca6ec2f8a037e",
+   "balance": "5619844348598993998769163970",
+   "share_pct": 12.64465
+  },
+  {
+   "address": "0x58fab046ce77064bf52c2eff4e163eb84386b8b4",
+   "balance": "2334009348875000000000000000",
+   "share_pct": 5.251521
+  },
+  {
+   "address": "0x000000000000000000000000000000000000dead",
+   "balance": "1923471159703770945293578174",
+   "share_pct": 4.32781
+  },
+  {
+   "address": "0x2ea90ff709b0fb5decd1de944f644eecdc26d33a",
+   "balance": "1175621343198940751591630110",
+   "share_pct": 2.645148
+  },
+  {
+   "address": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+   "balance": "848761365008444134380867071",
+   "share_pct": 1.909713
+  },
+  {
+   "address": "0x238a358808379702088667322f80ac48bad5e6c4",
+   "balance": "649733956867655012274145208",
+   "share_pct": 1.461901
+  },
+  {
+   "address": "0xf0e319587b54db351f4a20e2da09848fed4d8151",
+   "balance": "621698620153862035019976481",
+   "share_pct": 1.398822
+  },
+  {
+   "address": "0x5dedb37eaa9145dd1a17d385d8c5e256871d6f16",
+   "balance": "611866236479140970515983357",
+   "share_pct": 1.376699
+  },
+  {
+   "address": "0x9a937a531a3e4b7930a49548b64c4a3471d049e2",
+   "balance": "610074149236058951494657443",
+   "share_pct": 1.372667
+  },
+  {
+   "address": "0xdbf2bdecf7dff212880552398b42e0ab997523a7",
+   "balance": "588854986027098745000000000",
+   "share_pct": 1.324924
+  },
+  {
+   "address": "0x4492ca070a2caea1502fb807b389b62ab32eb0d3",
+   "balance": "586603504417275704449255607",
+   "share_pct": 1.319858
+  },
+  {
+   "address": "0xc1fa91a815f59215aaefff20ea5c2f6718488d9a",
+   "balance": "559775724986657156000000000",
+   "share_pct": 1.259495
+  },
+  {
+   "address": "0x7b6396e12928bee509473a2af01b30268343b7d5",
+   "balance": "525463217000000000000000000",
+   "share_pct": 1.182292
+  },
+  {
+   "address": "0x4e1d0ab0c3730469c79c6746d222a28af81367ee",
+   "balance": "482021894326264513146345975",
+   "share_pct": 1.084549
+  },
+  {
+   "address": "0x3a38d9c6a55f41286913b666501fb602bf0d05a2",
+   "balance": "482000000000000000000000000",
+   "share_pct": 1.0845
+  },
+  {
+   "address": "0x5197681f65d2280d34866ee5a8c343bc67a71b20",
+   "balance": "482000000000000000000000000",
+   "share_pct": 1.0845
+  },
+  {
+   "address": "0xe4ab694afb5499e6313e946c97d32e6c3fa5b754",
+   "balance": "444444445010803226282390787",
+   "share_pct": 1.0
+  },
+  {
+   "address": "0x74441dd9edc99fb5a66e7b35f139ce0e9fbd0954",
+   "balance": "407298532686207407481217779",
+   "share_pct": 0.916422
+  },
+  {
+   "address": "0x639e263ce57bcee9866f01b1e6166fa20f965239",
+   "balance": "383287277524234555000000000",
+   "share_pct": 0.862396
+  },
+  {
+   "address": "0xf0d1d92683d3a17d52ef3878b8191e1468f9e548",
+   "balance": "326295741399371667754028563",
+   "share_pct": 0.734165
+  },
+  {
+   "address": "0x8348791fd6230f1211131bbaf55571ceb8e6ca5f",
+   "balance": "291945924994382220414984940",
+   "share_pct": 0.656878
+  },
+  {
+   "address": "0xdc67fdc8bbd93521d63d2d737dede2334c270c14",
+   "balance": "277489436668824425686202819",
+   "share_pct": 0.624351
+  },
+  {
+   "address": "0x67539ff51707eccd6577e558da2bf2ea2449622b",
+   "balance": "261766604919284100803255240",
+   "share_pct": 0.588975
+  },
+  {
+   "address": "0x176d9347d31d41cbec66f68a00e30dfbd4c78f0f",
+   "balance": "253650856719947033495217287",
+   "share_pct": 0.570714
+  },
+  {
+   "address": "0xf8e95e222961b8eec4f4eece601c6c51b18fca6f",
+   "balance": "245070693665700820210020552",
+   "share_pct": 0.551409
+  },
+  {
+   "address": "0xfef84131848ad351e161d0c5e5e8585dc863c27d",
+   "balance": "230928240653878277364714103",
+   "share_pct": 0.519589
+  },
+  {
+   "address": "0xbfa8432d8f1257db9dd3266ba4860e2ca2aa01b3",
+   "balance": "221023614011252874003558290",
+   "share_pct": 0.497303
+  },
+  {
+   "address": "0x08a15d1c691804ed9a129c7cd51748c3429cbd72",
+   "balance": "206423186231427620668431278",
+   "share_pct": 0.464452
+  },
+  {
+   "address": "0x8e3dc66bb96b063afb932660fb5d060e170cf2cd",
+   "balance": "200000000000000002058309614",
+   "share_pct": 0.45
+  },
+  {
+   "address": "0x15e45bba8b73d9cf445d1237845b6a672fcfc57d",
+   "balance": "190228413049452286666503297",
+   "share_pct": 0.428014
+  },
+  {
+   "address": "0x0b361539c4b36866002f5b5d766e269c74b67c8f",
+   "balance": "157563521547661439226695340",
+   "share_pct": 0.354518
+  },
+  {
+   "address": "0x7e01c1108fb079f8a41610a91212213fb3e4607c",
+   "balance": "133386467556298382650043599",
+   "share_pct": 0.30012
+  },
+  {
+   "address": "0x8f28b0431dc3973b571f2c635d4f41857afac66c",
+   "balance": "111747966081533928788837839",
+   "share_pct": 0.251433
+  },
+  {
+   "address": "0xa3ff06e41e7a56d3e16961bc399d0dcbc527efd4",
+   "balance": "107465116504152812047053402",
+   "share_pct": 0.241797
+  },
+  {
+   "address": "0x8ffe93b5fbc0e24a99f864d51806a608868c1451",
+   "balance": "101530837701960409243703220",
+   "share_pct": 0.228444
+  },
+  {
+   "address": "0x8248b01341bad5bd2d055a2e8cc2012b8aa33ff3",
+   "balance": "100100827558699740976995106",
+   "share_pct": 0.225227
+  },
+  {
+   "address": "0x35bbec9cd9b08e6e42a3550525a29e8f5c1219b0",
+   "balance": "97800638336989661634063190",
+   "share_pct": 0.220051
+  },
+  {
+   "address": "0xb742481f362064dcd5cea25f6537203792888f4a",
+   "balance": "90678448919168000185452473",
+   "share_pct": 0.204027
+  },
+  {
+   "address": "0x393b53b9e88c7b67a8b3c3da4491478d8f9d24ae",
+   "balance": "87971131273541836061789685",
+   "share_pct": 0.197935
+  },
+  {
+   "address": "0xe8d105b5898ddb7b1b16f3db5735d793770124e2",
+   "balance": "84421187415507671721314648",
+   "share_pct": 0.189948
+  },
+  {
+   "address": "0x054fff17d8f73a0f4a5f864a7ee90464fa89dd0b",
+   "balance": "80648354195328729290139032",
+   "share_pct": 0.181459
+  },
+  {
+   "address": "0x179125910a8f3cf724da3321fad808f0ca2df68d",
+   "balance": "79905069574221658367381991",
+   "share_pct": 0.179786
+  },
+  {
+   "address": "0xec1b4855347e6c49451e691ead9dc6625420f81c",
+   "balance": "67586465284730266627507516",
+   "share_pct": 0.15207
+  },
+  {
+   "address": "0x0417aa96e8567b4475e0c4d19322b887e9ecae38",
+   "balance": "53945081099330515291432323",
+   "share_pct": 0.121376
+  },
+  {
+   "address": "0xd689c1fc5d8ed98491a113d0f18f2f3279fe4f97",
+   "balance": "53535734199640693010878235",
+   "share_pct": 0.120455
+  },
+  {
+   "address": "0x022c9d36883d41952cd8de0d486f2c31f7ad1fb6",
+   "balance": "52459707110582091858634026",
+   "share_pct": 0.118034
+  },
+  {
+   "address": "0xa52b040348786b461aa9e5c14fdce1d9e619bef1",
+   "balance": "50020931584327705354060855",
+   "share_pct": 0.112547
+  },
+  {
+   "address": "0x1f1e1a2b5b2a657eb19e57464e3e44c032ec5487",
+   "balance": "44444444000000000000000000",
+   "share_pct": 0.1
+  },
+  {
+   "address": "0x6ae484b98a178d9f51b565f7b5577cd01d6a7959",
+   "balance": "43232462151204116844607055",
+   "share_pct": 0.097273
+  },
+  {
+   "address": "0xcbde2cfe3ef1e9986cca6927f307c320ae1f9362",
+   "balance": "41258865047713290194393583",
+   "share_pct": 0.092832
+  },
+  {
+   "address": "0xcb7d757a0edd52579e61a0ee4a275fd629e08772",
+   "balance": "38995188852093924381348613",
+   "share_pct": 0.087739
+  },
+  {
+   "address": "0x264c9ee065d4cbbed3a32acdfc24d0e592a86445",
+   "balance": "38872695127983372702091165",
+   "share_pct": 0.087464
+  },
+  {
+   "address": "0xad8739ebefbfc7ba72429ffc80b10ce420475770",
+   "balance": "38274539120447587450224196",
+   "share_pct": 0.086118
+  },
+  {
+   "address": "0x901293ca0d26be9b44ad4649216947999179bf4c",
+   "balance": "37331183547397210248995516",
+   "share_pct": 0.083995
+  },
+  {
+   "address": "0xece33323e632f5df7d22e072d0ead7e30d5ba41c",
+   "balance": "31371785732691518213634725",
+   "share_pct": 0.070587
+  },
+  {
+   "address": "0x8b0ce36cea1692106befb6c39fe8c78749afe36b",
+   "balance": "25415034547593215226976105",
+   "share_pct": 0.057184
+  },
+  {
+   "address": "0xe8797a6bb4693674d78e933e85cb159a0219d03b",
+   "balance": "25250000000000000000000000",
+   "share_pct": 0.056813
+  },
+  {
+   "address": "0xf0721ffdff9818c6dcc5e1bc9f3b2a63c3aa65d9",
+   "balance": "25000000000000000000000000",
+   "share_pct": 0.05625
+  },
+  {
+   "address": "0x16d477c2461dff8e6c86e825ddfb23296cca63d8",
+   "balance": "25000000000000000000000000",
+   "share_pct": 0.05625
+  },
+  {
+   "address": "0x6e9c17439cf81247965f9543645cfc8e746c4588",
+   "balance": "24850000000000000000000000",
+   "share_pct": 0.055913
+  },
+  {
+   "address": "0x75f7f0a883e9aa840adf8fa4f442967b120afc27",
+   "balance": "24074646566951195936895599",
+   "share_pct": 0.054168
+  },
+  {
+   "address": "0x2b998896e0458f5f83d14ebaba04b3b9e484aa74",
+   "balance": "22327058448804195382176236",
+   "share_pct": 0.050236
+  },
+  {
+   "address": "0x4f13b9678a745c8ff6b42b1adcbad0a0731bcf17",
+   "balance": "20691501167759542500471832",
+   "share_pct": 0.046556
+  },
+  {
+   "address": "0x8c062dc5d775b7d5efc168f75a875f392f53dcdf",
+   "balance": "19808776726833237486471570",
+   "share_pct": 0.04457
+  },
+  {
+   "address": "0x763562709bbdb1c4e1970751c7e3ff8640cd7175",
+   "balance": "18720508764413257649517936",
+   "share_pct": 0.042121
+  },
+  {
+   "address": "0x19467c59890ad9daf9635ff68597bfa78af12d00",
+   "balance": "16685423863251450668626965",
+   "share_pct": 0.037542
+  },
+  {
+   "address": "0x50712f2600007b20f930d4319e95cfff66702f52",
+   "balance": "15955728327738006940531648",
+   "share_pct": 0.0359
+  },
+  {
+   "address": "0x827fa86384048c938ff38253420b494f8019163c",
+   "balance": "15002976610478229380879292",
+   "share_pct": 0.033757
+  },
+  {
+   "address": "0x66db76d0c52b2a50944e6022ff73677db85590b6",
+   "balance": "12658910723042818678016711",
+   "share_pct": 0.028483
+  },
+  {
+   "address": "0x00d6b02ab0eb905349f1dd342f66920ab071d4fa",
+   "balance": "11964487273356870282222892",
+   "share_pct": 0.02692
+  },
+  {
+   "address": "0x85bb9a13d3f55040e45ac508db4e498071c0a995",
+   "balance": "10599444651273589635631851",
+   "share_pct": 0.023849
+  },
+  {
+   "address": "0xf028baa26e89d8411e2638e93ac8138be057009e",
+   "balance": "10000209288823201845335869",
+   "share_pct": 0.0225
+  },
+  {
+   "address": "0xbe0181471505b3f0801a5b0ce9237f32e3780405",
+   "balance": "9715120107960931853488774",
+   "share_pct": 0.021859
+  },
+  {
+   "address": "0x17eb36fd43044e836cb35a70a2058f1f67d97428",
+   "balance": "9117656535047883637269034",
+   "share_pct": 0.020515
+  },
+  {
+   "address": "0xd92637dea6a548f9508f5811ebb894887991297e",
+   "balance": "8581204634957865330887762",
+   "share_pct": 0.019308
+  },
+  {
+   "address": "0x3806cd592a508d1992ed007c2f53de251c2e7452",
+   "balance": "8220000000000000000000000",
+   "share_pct": 0.018495
+  },
+  {
+   "address": "0xd63e9c30e6019e1c0c1838de7ad1ce38030ee952",
+   "balance": "7950000000000000000000000",
+   "share_pct": 0.017888
+  },
+  {
+   "address": "0x2b40f892a5b8aefdf9868317330ca0f956f70d2b",
+   "balance": "7188627221452115145613433",
+   "share_pct": 0.016174
+  },
+  {
+   "address": "0x226ea74d26e2aa98973dc35ffe7e66fa2e3b2588",
+   "balance": "7100000000000000000000000",
+   "share_pct": 0.015975
+  },
+  {
+   "address": "0xcd6b980029e6e6e0733ac8ec3e02be9410d09799",
+   "balance": "6627462998243208610000000",
+   "share_pct": 0.014912
+  },
+  {
+   "address": "0x74f1aaff7e8e3dec9b6de8a889c1cc82776208bc",
+   "balance": "6227622059202866368111172",
+   "share_pct": 0.014012
+  },
+  {
+   "address": "0xfb200657f7266157a45dfcc6c09690726daa24e6",
+   "balance": "5850000000000000000000000",
+   "share_pct": 0.013163
+  },
+  {
+   "address": "0x507d3c4571347b1365108f503304aa84c2415d61",
+   "balance": "5732479525562766664766425",
+   "share_pct": 0.012898
+  },
+  {
+   "address": "0x212d6d1101f8da81713b5ff3e440b8b91a7b3f83",
+   "balance": "5644771181001160690671582",
+   "share_pct": 0.012701
+  },
+  {
+   "address": "0x1474a8d88fbce51a3b4a8b1a9965f2a63bd868a4",
+   "balance": "5410558670693573206383416",
+   "share_pct": 0.012174
+  },
+  {
+   "address": "0xb433d83871e633f416a4e8994e6a2320c3945eda",
+   "balance": "5000000000000000000000000",
+   "share_pct": 0.01125
+  },
+  {
+   "address": "0x8cc9bd34b5ee8e828c54b84d0520cdcf4fa9c078",
+   "balance": "4450000000000000000000000",
+   "share_pct": 0.010013
+  },
+  {
+   "address": "0x2ae18c3b2fc18545edd35beeaef97cc2ed908a02",
+   "balance": "3450000000000000000000000",
+   "share_pct": 0.007763
+  },
+  {
+   "address": "0x7e16db456639643d05030e42070fb7a19098a6db",
+   "balance": "3288187897545687907657910",
+   "share_pct": 0.007398
+  },
+  {
+   "address": "0x1ecf3736eb1a7a2f71980cc520da592bf0124a16",
+   "balance": "3150000000000000000000000",
+   "share_pct": 0.007088
+  },
+  {
+   "address": "0xc8799d53f301c4917a1e6d863057734d9a848e84",
+   "balance": "3120000000000000000000000",
+   "share_pct": 0.00702
+  },
+  {
+   "address": "0xcf4cac88df345bf16b550ca02fe4e1d1b27860d3",
+   "balance": "3100000000000000000000000",
+   "share_pct": 0.006975
+  },
+  {
+   "address": "0x335aa55c12b260e604d93cb0b0895bb13a4e93e3",
+   "balance": "3000000000000000000000000",
+   "share_pct": 0.00675
+  },
+  {
+   "address": "0xcef30ea3020d837e6e4751a81710d22d30e8f6c1",
+   "balance": "2725646816265738608303558",
+   "share_pct": 0.006133
+  },
+  {
+   "address": "0x24e585d339fa5f1b7d0fd2c86d3e12dc47cffe34",
+   "balance": "2623521791753524954629845",
+   "share_pct": 0.005903
+  },
+  {
+   "address": "0x5c7a79549e4413a52b1787b5c7e10368720d2358",
+   "balance": "2600000000000000000000000",
+   "share_pct": 0.00585
+  },
+  {
+   "address": "0x4a6419ee9666acaa6755fc0aebb27f48743c1e1e",
+   "balance": "2500000000000000000000000",
+   "share_pct": 0.005625
+  },
+  {
+   "address": "0x3d98800c64c345950e1eaaa076d88c12d1bf5f37",
+   "balance": "2400000000000000000000000",
+   "share_pct": 0.0054
+  },
+  {
+   "address": "0x5b4ca59741de12dc212982b342392a063492a021",
+   "balance": "2200000000000000000000000",
+   "share_pct": 0.00495
+  },
+  {
+   "address": "0x93d90c2c47107aca581cbdec83434ded3a6f345c",
+   "balance": "2195400240922168601828375",
+   "share_pct": 0.00494
+  },
+  {
+   "address": "0x1b7c0bc0297abfd506999953aaeef6f83203d6eb",
+   "balance": "2104019397996072745975808",
+   "share_pct": 0.004734
+  },
+  {
+   "address": "0x75ca85a045b6648b31e335bc9742efebcaf778b4",
+   "balance": "2100000000000000000000000",
+   "share_pct": 0.004725
+  },
+  {
+   "address": "0x4d2a5410f0d0733c0448e91e47608ebdc918a806",
+   "balance": "2100000000000000000000000",
+   "share_pct": 0.004725
+  },
+  {
+   "address": "0x7da3ca7215a7d39e6f0f29dac6ead13024ac7744",
+   "balance": "2000000000000000000000000",
+   "share_pct": 0.0045
+  },
+  {
+   "address": "0x128edc3f509f19c7dcf866c9655f6b6e41db3ff6",
+   "balance": "2000000000000000000000000",
+   "share_pct": 0.0045
+  },
+  {
+   "address": "0x2d92a52e1a4f2427c305acec194580074f5c76cc",
+   "balance": "2000000000000000000000000",
+   "share_pct": 0.0045
+  },
+  {
+   "address": "0xabc2c3daffa4c1963299da225c25f2aa7d4ddf62",
+   "balance": "2000000000000000000000000",
+   "share_pct": 0.0045
+  },
+  {
+   "address": "0xec5fadb652eb076d866607aebc83c6d8d9f6a2e0",
+   "balance": "1954924513854635009632776",
+   "share_pct": 0.004399
+  },
+  {
+   "address": "0x02f5f930bc3c266962bf747a588996dded03c259",
+   "balance": "1912416852099707271141098",
+   "share_pct": 0.004303
+  },
+  {
+   "address": "0x9dc9ecb2cb96dca308071a6bb64a763cf335a5cc",
+   "balance": "1884224778149515383755670",
+   "share_pct": 0.00424
+  },
+  {
+   "address": "0xfd08fc471cce17b7ecbfaf8b8e3f44257f710c4d",
+   "balance": "1870000000000000000000000",
+   "share_pct": 0.004208
+  },
+  {
+   "address": "0x1ef18a57107a0a50c1cf69b9b844cbdd1c1aba2c",
+   "balance": "1782271500623989900410874",
+   "share_pct": 0.00401
+  },
+  {
+   "address": "0x97cd18b8bbb629b17675d868259ea84c0a2a5a9c",
+   "balance": "1750000000000000000000000",
+   "share_pct": 0.003938
+  },
+  {
+   "address": "0x9067e71d30cf136f767ae4fd1ea0517314ac0982",
+   "balance": "1550000000000000000000000",
+   "share_pct": 0.003488
+  },
+  {
+   "address": "0x818f5cdcdd41e824c2d343f8781820b8dea5582e",
+   "balance": "1535452508344404084752328",
+   "share_pct": 0.003455
+  },
+  {
+   "address": "0xa31be3a1ac1dde980db8d18d32e7cd9ab557360a",
+   "balance": "1500000000000000000000000",
+   "share_pct": 0.003375
+  },
+  {
+   "address": "0x00000047bb99ea4d791bb749d970de71ee0b1a34",
+   "balance": "1470349670020579909144461",
+   "share_pct": 0.003308
+  },
+  {
+   "address": "0xf78f22bf93358c0aaf34f7b0d55a8ae8e828e76a",
+   "balance": "1400000000000000000000000",
+   "share_pct": 0.00315
+  },
+  {
+   "address": "0x7373e88368378052eb5a449d2ebc95ad7e5f2bef",
+   "balance": "1400000000000000000000000",
+   "share_pct": 0.00315
+  },
+  {
+   "address": "0xd3eafe931b5667bc66fdc6572939f62f2c6941fd",
+   "balance": "1321286364440128173808711",
+   "share_pct": 0.002973
+  },
+  {
+   "address": "0xe1977ff4e6bb3ed670ebd1453690044495826104",
+   "balance": "1250000000000000000000000",
+   "share_pct": 0.002813
+  },
+  {
+   "address": "0x5047384cdb02d1117abece1f7a01d2b0e39c793f",
+   "balance": "1250000000000000000000000",
+   "share_pct": 0.002813
+  },
+  {
+   "address": "0xfdf05af8ddce3621f01713e01721d6e9ad702ea8",
+   "balance": "1120000000000000000000000",
+   "share_pct": 0.00252
+  },
+  {
+   "address": "0x613c7375b11026626e5748d506b87c812adc1f22",
+   "balance": "1100000000000000000000000",
+   "share_pct": 0.002475
+  },
+  {
+   "address": "0x078293f144c61d1e02b49d4cd3f33c283eb7dc73",
+   "balance": "1000000000000000000000000",
+   "share_pct": 0.00225
+  },
+  {
+   "address": "0x3d650013f46dd2d96b5afefe4acab7a7f2727561",
+   "balance": "1000000000000000000000000",
+   "share_pct": 0.00225
+  },
+  {
+   "address": "0x9912d22ab4f1856fb3571c6c68f2571904ace4b9",
+   "balance": "1000000000000000000000000",
+   "share_pct": 0.00225
+  },
+  {
+   "address": "0xf16f0882de08315b438e9f3a2abfb2d2e5d94eca",
+   "balance": "800000000000000000000000",
+   "share_pct": 0.0018
+  },
+  {
+   "address": "0x9412222d7801906b4179e58e44b8dbf16426bea2",
+   "balance": "800000000000000000000000",
+   "share_pct": 0.0018
+  },
+  {
+   "address": "0x655681f415a52afab52e07904015ffc228565207",
+   "balance": "800000000000000000000000",
+   "share_pct": 0.0018
+  },
+  {
+   "address": "0xd940dfd5921fb3f90f98232bcbdfdc5a9c4b1bbf",
+   "balance": "750000000000000000000000",
+   "share_pct": 0.001688
+  },
+  {
+   "address": "0xba567fea152c93b38513a44e1da3cbbee7f3b1dd",
+   "balance": "750000000000000000000000",
+   "share_pct": 0.001688
+  },
+  {
+   "address": "0xf324fb570e2de404570003051352f7c5d0c8fd98",
+   "balance": "750000000000000000000000",
+   "share_pct": 0.001688
+  },
+  {
+   "address": "0xd2ee1bd0ec41709fb111a8e4aca6cc80d9410abd",
+   "balance": "738132766229922084509475",
+   "share_pct": 0.001661
+  },
+  {
+   "address": "0xca58696564492ef9c3229c89072365b253bda246",
+   "balance": "670000000000000000000000",
+   "share_pct": 0.001508
+  },
+  {
+   "address": "0x12735653b27f08563ac8866d043d23433a93f5d0",
+   "balance": "600000000000000000000000",
+   "share_pct": 0.00135
+  },
+  {
+   "address": "0x525d8478347202da751ec9d7211a8417b3ae5e1a",
+   "balance": "529363303625059275622627",
+   "share_pct": 0.001191
+  },
+  {
+   "address": "0xd01f18a13e8d84da238e2e0f18b4f81de5670dca",
+   "balance": "500000000000000000000000",
+   "share_pct": 0.001125
+  },
+  {
+   "address": "0x3b700d385f501c9e4c66927016a0f7684fce7c61",
+   "balance": "500000000000000000000000",
+   "share_pct": 0.001125
+  },
+  {
+   "address": "0xe470b44461cf8028a84369012f9de4aad32bfa9e",
+   "balance": "500000000000000000000000",
+   "share_pct": 0.001125
+  },
+  {
+   "address": "0x98d6768508a36c04d8a60e5e5b24ac3d628f5350",
+   "balance": "500000000000000000000000",
+   "share_pct": 0.001125
+  },
+  {
+   "address": "0x6c1a1dcf255333e98d0a0ea55adac1b6caf0a72a",
+   "balance": "500000000000000000000000",
+   "share_pct": 0.001125
+  },
+  {
+   "address": "0xa5a9ed848b9ec8c83a0bb6d4e7f7111a4c1065fb",
+   "balance": "468673037408363924905270",
+   "share_pct": 0.001055
+  },
+  {
+   "address": "0xab97087102fa0d6a9373aaa5473224d00ae782f7",
+   "balance": "400000000000000000000000",
+   "share_pct": 0.0009
+  },
+  {
+   "address": "0x8043ed9e7b0b46322f2932de92fb5ec0a5a031fe",
+   "balance": "400000000000000000000000",
+   "share_pct": 0.0009
+  },
+  {
+   "address": "0xd07c76fa47c99c70917b6db2e9215844f0b9dc64",
+   "balance": "350000000000000000000000",
+   "share_pct": 0.000788
+  },
+  {
+   "address": "0xa1e397bd64189092198d0b4301a4d17550c28dc6",
+   "balance": "350000000000000000000000",
+   "share_pct": 0.000788
+  },
+  {
+   "address": "0xeb50468f2bb2af90cad3b684f5481398a5d40ab9",
+   "balance": "300000000000000000000000",
+   "share_pct": 0.000675
+  },
+  {
+   "address": "0x980e5f15e788cb653c77781099fb739d7a1aeed0",
+   "balance": "300000000000000000000000",
+   "share_pct": 0.000675
+  },
+  {
+   "address": "0x0da2a82ed2c387d1751ccbaf999a80b65bdb269e",
+   "balance": "293555988929762951789040",
+   "share_pct": 0.000661
+  },
+  {
+   "address": "0xd1cada310f73455a2b119fa49aa8b682bfff9f7d",
+   "balance": "284706576216285937875151",
+   "share_pct": 0.000641
+  },
+  {
+   "address": "0x90cbe4bdd538d6e9b379bff5fe72c3d67a521de5",
+   "balance": "259036517327895519143454",
+   "share_pct": 0.000583
+  },
+  {
+   "address": "0xc00d98e7c3ba26c811a0763dbdc58b3c368b0fab",
+   "balance": "250000000000000000000000",
+   "share_pct": 0.000563
+  },
+  {
+   "address": "0x207581ac0916523f674ba74d17910e2e2f7e51a0",
+   "balance": "250000000000000000000000",
+   "share_pct": 0.000563
+  },
+  {
+   "address": "0xb6c06eb1a3f1a1ef155a2b48ea6b4f84e9c128f7",
+   "balance": "250000000000000000000000",
+   "share_pct": 0.000563
+  },
+  {
+   "address": "0xcfa08d418f136cc2a14c791fcf7e37b30d237592",
+   "balance": "250000000000000000000000",
+   "share_pct": 0.000563
+  },
+  {
+   "address": "0xfebeb3682f672d620e1ce2ffeb2743fde20f4778",
+   "balance": "250000000000000000000000",
+   "share_pct": 0.000563
+  },
+  {
+   "address": "0x1d4c28113002718859d9e808d81ccd3b7763e9b8",
+   "balance": "250000000000000000000000",
+   "share_pct": 0.000563
+  },
+  {
+   "address": "0x3524b19f3728e9106dc44941c4d2fad7cd90bd01",
+   "balance": "250000000000000000000000",
+   "share_pct": 0.000563
+  },
+  {
+   "address": "0x522d50cfba3171bbd9207f1a86e4b29e43edc03b",
+   "balance": "250000000000000000000000",
+   "share_pct": 0.000563
+  },
+  {
+   "address": "0x6523acd890ec5853db6d9eb731d7892666dbd27e",
+   "balance": "250000000000000000000000",
+   "share_pct": 0.000563
+  },
+  {
+   "address": "0x5033036702cceee23b79022e938a41e0452f908a",
+   "balance": "250000000000000000000000",
+   "share_pct": 0.000563
+  },
+  {
+   "address": "0x26d6bd4cd5c7a6e34f0c4b186a3dae6690f567aa",
+   "balance": "250000000000000000000000",
+   "share_pct": 0.000563
+  },
+  {
+   "address": "0x8785fa9111aa458117f766831fae5bdcaa6ae427",
+   "balance": "250000000000000000000000",
+   "share_pct": 0.000563
+  },
+  {
+   "address": "0x78b732d473a723db37f4c72713d5b98a345e77c1",
+   "balance": "250000000000000000000000",
+   "share_pct": 0.000563
+  },
+  {
+   "address": "0x24a29c98a5a18058b8989cea7f942c586dceeea6",
+   "balance": "250000000000000000000000",
+   "share_pct": 0.000563
+  },
+  {
+   "address": "0x1becfb9e7cfc39667f8608909f3013c4bdbbfc92",
+   "balance": "250000000000000000000000",
+   "share_pct": 0.000563
+  },
+  {
+   "address": "0x8532ff85f7d16a869945d8abb52893d73d2118ef",
+   "balance": "250000000000000000000000",
+   "share_pct": 0.000563
+  },
+  {
+   "address": "0xfa36ba58ecc3512b5a9c124631171a19c27c4fc6",
+   "balance": "250000000000000000000000",
+   "share_pct": 0.000563
+  },
+  {
+   "address": "0x3d32270e076c998c1bd4c57b5c4798c5c270b22e",
+   "balance": "250000000000000000000000",
+   "share_pct": 0.000563
+  },
+  {
+   "address": "0xd9080cca2800bc8b09bfb90104d4c40d2cb1bdcb",
+   "balance": "250000000000000000000000",
+   "share_pct": 0.000563
+  },
+  {
+   "address": "0x908c97f6b822e277a62c0dbb347f2ccd536b3659",
+   "balance": "250000000000000000000000",
+   "share_pct": 0.000563
+  },
+  {
+   "address": "0x3b42e719019a6feeac633956e074de62dd56abab",
+   "balance": "250000000000000000000000",
+   "share_pct": 0.000563
+  },
+  {
+   "address": "0x342269507996e2032d64ecbfa543d3906f40c625",
+   "balance": "250000000000000000000000",
+   "share_pct": 0.000563
+  },
+  {
+   "address": "0xb0129b682fa218ab0cb7e7846efb3805ee97ea2b",
+   "balance": "250000000000000000000000",
+   "share_pct": 0.000563
+  },
+  {
+   "address": "0xf6044b4f559420b82d78d30adaada1311208ce2c",
+   "balance": "250000000000000000000000",
+   "share_pct": 0.000563
+  },
+  {
+   "address": "0xec5275d5b03bc390fca63d902d0b2d0db2eb5573",
+   "balance": "250000000000000000000000",
+   "share_pct": 0.000563
+  },
+  {
+   "address": "0xf36e02a6d81eddae7bceaf6d7c1005099d54f488",
+   "balance": "250000000000000000000000",
+   "share_pct": 0.000563
+  },
+  {
+   "address": "0xa6d49842d61332e0ad0f5cb63412a66651f92dd7",
+   "balance": "250000000000000000000000",
+   "share_pct": 0.000563
+  },
+  {
+   "address": "0xc7029814e644631b624199f94231b66bc7959afd",
+   "balance": "250000000000000000000000",
+   "share_pct": 0.000563
+  },
+  {
+   "address": "0xaaf9c333c0b1ef0d66119e78fc84393c56d2e0e7",
+   "balance": "250000000000000000000000",
+   "share_pct": 0.000563
+  },
+  {
+   "address": "0xaf7f0f0fe64e4304a6e48f89b714b21746f0c0f6",
+   "balance": "250000000000000000000000",
+   "share_pct": 0.000563
+  },
+  {
+   "address": "0xb1cf2b172bbebc59b8e9628a467736811c5fc63b",
+   "balance": "229385437583945558757275",
+   "share_pct": 0.000516
+  },
+  {
+   "address": "0xa21fc88bd8c17cae306089d7b00a1f5cd5ad3ee9",
+   "balance": "200000000000000000000000",
+   "share_pct": 0.00045
+  },
+  {
+   "address": "0x89b8aa89fdd0507a99d334cbe3c808fafc7d850e",
+   "balance": "192884498131101758891700",
+   "share_pct": 0.000434
+  },
+  {
+   "address": "0xb000e8c79190684c2c1c562a02b64b5de6089eb7",
+   "balance": "180524288685755174948996",
+   "share_pct": 0.000406
+  },
+  {
+   "address": "0xd41efde20cafbe8c29b3509087ac5c4364ae5a51",
+   "balance": "150000000000000000000000",
+   "share_pct": 0.000338
+  },
+  {
+   "address": "0xf712d689aa4f173c8e6303de5fee1ed9ba9eaf8f",
+   "balance": "106292370633031693044636",
+   "share_pct": 0.000239
+  },
+  {
+   "address": "0xfd5efa5c47fb3be071b2fd38fc88dfa30318c5d2",
+   "balance": "100000000000000000000000",
+   "share_pct": 0.000225
+  },
+  {
+   "address": "0xfc930b2d66d1d0e49e3b6d14df76acdd6ae7b05a",
+   "balance": "100000000000000000000000",
+   "share_pct": 0.000225
+  },
+  {
+   "address": "0xdd39d6532ece062f7a8f8f73fd84589480215bec",
+   "balance": "100000000000000000000000",
+   "share_pct": 0.000225
+  },
+  {
+   "address": "0x8b8543a9566b7c75e5484ce4385d76879eda2068",
+   "balance": "100000000000000000000000",
+   "share_pct": 0.000225
+  },
+  {
+   "address": "0xe37df0179ba1a0846e7551743bdc5becab4dd13d",
+   "balance": "100000000000000000000000",
+   "share_pct": 0.000225
+  },
+  {
+   "address": "0x7547c70a3670112b4d298c6810639ccef4f7d22c",
+   "balance": "100000000000000000000000",
+   "share_pct": 0.000225
+  },
+  {
+   "address": "0xab7db30d433a39f7b930d2eb001ec3a1e8f89d44",
+   "balance": "100000000000000000000000",
+   "share_pct": 0.000225
+  },
+  {
+   "address": "0xa69a2badddef2d6c4f6e6cec75533e0b65a225e0",
+   "balance": "100000000000000000000000",
+   "share_pct": 0.000225
+  },
+  {
+   "address": "0x98e382b96cbe7d132609fba435e607e09bb9860d",
+   "balance": "100000000000000000000000",
+   "share_pct": 0.000225
+  },
+  {
+   "address": "0x2f2e1f54109b2525137eeda4a892600ee956d42a",
+   "balance": "50000000000000000000000",
+   "share_pct": 0.000113
+  },
+  {
+   "address": "0x922164bbbd36acf9e854acbbf32facc949fcaeef",
+   "balance": "38428448761212627013834",
+   "share_pct": 8.6e-05
+  },
+  {
+   "address": "0x4d5401b9e9dcd7c9097e1df036c3afafc35d604f",
+   "balance": "28806008380763899988249",
+   "share_pct": 6.5e-05
+  },
+  {
+   "address": "0x9899f62ecf16b70bffc88677023026c47e48c218",
+   "balance": "25000000000000000000000",
+   "share_pct": 5.6e-05
+  },
+  {
+   "address": "0x18a4a007c9370eae73bed23e5e0b625855c09897",
+   "balance": "24545279405855522633157",
+   "share_pct": 5.5e-05
+  },
+  {
+   "address": "0x000000005d8a79cb944bb8e4b79a6f0c1fd9d1d0",
+   "balance": "10493866979339481278508",
+   "share_pct": 2.4e-05
+  },
+  {
+   "address": "0x52866fd157577897ce627022b9c19bd2e622fd7a",
+   "balance": "10124487314092020000000",
+   "share_pct": 2.3e-05
+  },
+  {
+   "address": "0xb483168f9e5e4a7866121d968409bdeb7b836cca",
+   "balance": "7499209897965019447108",
+   "share_pct": 1.7e-05
+  },
+  {
+   "address": "0x8a000b247f8ccdb64c5cc6d84f9bfe37477960fc",
+   "balance": "4766580449208622215165",
+   "share_pct": 1.1e-05
+  },
+  {
+   "address": "0x86632480683ed04c272f7b9991d6d40849e7a28a",
+   "balance": "3892524713964473959396",
+   "share_pct": 9e-06
+  },
+  {
+   "address": "0x426603bac5e0ea73fd13aecad7a80c9f963f6eac",
+   "balance": "1427671074417171005654",
+   "share_pct": 3e-06
+  },
+  {
+   "address": "0x49df801006b69388989c0735a3dd434520de4df1",
+   "balance": "1078483884846821340102",
+   "share_pct": 2e-06
+  },
+  {
+   "address": "0x15f049383316e03759356c03e9608ff686e26754",
+   "balance": "400000000000000000000",
+   "share_pct": 1e-06
+  },
+  {
+   "address": "0x63b0a0d33fe906c668b1de4875bfaf562a9d8c5b",
+   "balance": "189069805701281182405",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0xf809a4156b5abd7b74a94d8a99c93ccbdadb7d07",
+   "balance": "1199991089781603652",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x8737a10d9c19af8bb2eae0b5e9cfe7b7276e0638",
+   "balance": "1146354802365046644",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x2aa449dcaa5904274e4397e85aa29aa124cf49f9",
+   "balance": "539412359451231808",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x379a1d2cfa054eb3b358d7858831875b1cb46564",
+   "balance": "377577334251138142",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x4c1bbb72c8f43107904db33461910a6fd38f6836",
+   "balance": "247474033943308334",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x44b02358b52d7af2970710e46a711048e6812dc4",
+   "balance": "45558435054955911",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x10cb4724d87896cd35be7f95322df1eadbb41d64",
+   "balance": "13589364391308126",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x14084be4bc61e83a02f1f059ce36425dc9cec775",
+   "balance": "3012018601447484",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0xba53da030f3504db8cf0309bb89791950d0ce5e6",
+   "balance": "736971853900",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x59efe11a8a0ad85bcc767bef4c7bb0fa1cbdef08",
+   "balance": "12331662985",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x8ce0002fa788611d2210cc678eedbe489a8c0819",
+   "balance": "8058849104",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0xb680da944e32b131e7e993dd9363619d1e104c20",
+   "balance": "4065960165",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0xaf9cddb6920f7e19fb94e6b9a5caf2ef7a40df21",
+   "balance": "3761085628",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x9db372605b2dfc11559d61d90bb9aede009d1dbb",
+   "balance": "2585570232",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0xe3b0aa28803638e9f3765521cf6104d660fddcc6",
+   "balance": "792134033",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x75dd8c6c78100faa9ebb46ae5418555d77708a67",
+   "balance": "785737104",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0xc46ac05ebf3edec3533ba33ad594c65142b82bc7",
+   "balance": "698723660",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x3326878b4231f2d4f86557c5557b533422ec086c",
+   "balance": "545810806",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x97655aed6c44d84d63b83281dd1ee7cd25084efe",
+   "balance": "446152727",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x5c952063c7fc8610ffdb798152d69f0b9550762b",
+   "balance": "41679",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0xa01cd5b68265b972b73a713f6d824d1a6d3612b0",
+   "balance": "5276",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x7fe7957e9484b968b137d2e5c73a1ed10d464d60",
+   "balance": "72",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x713492458406541c5e9e591eed7bb329f1a9a3a3",
+   "balance": "14",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0xccc1ebe0bf01c07d00c53fb49335406e709076e1",
+   "balance": "11",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x2081ebd66a291f70669def00a5bed8708d9ad020",
+   "balance": "5",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x6f3f9630caeeef4ea119c991506b20a5ee9fe4aa",
+   "balance": "4",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x00c600b30fb0400701010f4b080409018b9006e0",
+   "balance": "2",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0xa49839864c752ca76281335453a700fe31c0463b",
+   "balance": "2",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x23e7d913c4106016ab0cad3f415ce2c5d6eafc41",
+   "balance": "2",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0xfe2580571b63492a888fb258e098efd3c95c74f5",
+   "balance": "2",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x19bd8946c3affd8c8b4579a9f3f6d717e093fd55",
+   "balance": "1",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0xe16a721eae6f952afad4e29cbf81c0577ac25a27",
+   "balance": "1",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0xdcc4ec6f4d27230d08f1384dae19ed8de5818720",
+   "balance": "1",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x695b257c0e67b42e675c3f9552a0b5f19ec38c08",
+   "balance": "1",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x4a50dfa71ef3dac520a685427a1bb8bbe30608a6",
+   "balance": "1",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x0000000256cdb6d26cf9fd79229976b0feaecdf4",
+   "balance": "1",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x1111111254eeb25477b68fb85ed929f73a960582",
+   "balance": "1",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x5e44a9be7bcc8ef2cbb25c8dad805dff609d5110",
+   "balance": "1",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x0000a1e0777c5f0e1e5c7cf3ca427801d143fe3e",
+   "balance": "1",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x0000000040ac064de24cbc1cb9fcbcbc033ee5b6",
+   "balance": "1",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x0000000000ef40f5e9e32ed6c4d6ab4993c0e850",
+   "balance": "1",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x52f209c6ae7f43e50b0f6f70bc9fa119a5701798",
+   "balance": "1",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0xee082a26416cbda6c7c4bbab928778428751b90b",
+   "balance": "1",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0xe37e799d5077682fa0a244d46e5649f71457bd09",
+   "balance": "1",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x12405a622cba498285c1f2f83a2da003cc42bedc",
+   "balance": "1",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x1b865ac80156ba7649b521f0b0c769e6b4526c49",
+   "balance": "1",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x53e5ff701370e54df60271e9157d535674c654a6",
+   "balance": "1",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0xcbaec39f748e98c09e3433ee1fd82d71beb6e78d",
+   "balance": "1",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x6a000f20005980200259b80c5102003040001068",
+   "balance": "1",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x05b18c3af525b8231fd0e3205d2f3e773e0af5fc",
+   "balance": "1",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x19ff3f92a7c01866bb66568752fa0e1f67b28ef4",
+   "balance": "1",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x1c692937e534469b9bcfcf177f532f808a03e96c",
+   "balance": "1",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0xf081470f5c6fbccf48cc4e5b82dd926409dcdd67",
+   "balance": "1",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0xde9e4fe32b049f821c7f3e9802381aa470ffca73",
+   "balance": "1",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x37f505d8907b0fcebe4ae65a36e7ab1d1517eb44",
+   "balance": "1",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x0000cafec60cb34ad15e580a3eee06a6fe1a1cab",
+   "balance": "1",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0xb135a605ca00c7cbc3513faaa4e4247701e0fa6b",
+   "balance": "1",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x3466e94697188ea21f98787b9543752995896872",
+   "balance": "1",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x21bc3de3de5a774a6f0c5805729e8290b8bdc9da",
+   "balance": "1",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x6e4141d33021b52c91c28608403db4a0ffb50ec6",
+   "balance": "1",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x356f760ea9ae370096a84f3e16f1da956a151c8f",
+   "balance": "1",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0xaf7076ff9f05f2653e73aea69cf68e6ffc4ec800",
+   "balance": "1",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x9a773d0749b2e6eba628b471d03485718e533681",
+   "balance": "1",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0xd2b37ade14708bf18904047b1e31f8166d39612b",
+   "balance": "1",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0xb6d6376903eba67b79811d07e216379a3982eed6",
+   "balance": "1",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x22ec88b9ff78c6f2458ab1a7aa8bb99d84bd4b86",
+   "balance": "1",
+   "share_pct": 0.0
+  },
+  {
+   "address": "0x8f10b468b06c6fd214b65f87778827f7d113f996",
+   "balance": "1",
+   "share_pct": 0.0
+  }
+ ],
+ "all_holders_note": "All 279 addresses with a non-zero balance at block 129454096, ranked. Derived by replaying every Transfer log; sum equals totalSupply exactly.",
+ "pool_checks": {
+  "0xca93ec685b8623688e6b236f9068034b298c2150": {
+   "token0": "0x90c8889f428f9ebb77bb8f15cad3a50a9ac680df",
+   "token1": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+   "factory": "0x0bfbcf9fa4f9c56b0f40a671ad40e0805a091865",
+   "fee": 10000,
+   "read_at_block": 129454096
+  },
+  "0x740a3b4a91cb8fa47e85d7f9713ca6ec2f8a037e": {
+   "token0": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c",
+   "token1": "0x90c8889f428f9ebb77bb8f15cad3a50a9ac680df",
+   "factory": "0x0bfbcf9fa4f9c56b0f40a671ad40e0805a091865",
+   "fee": 10000,
+   "read_at_block": 129454096
+  }
+ }
+}
